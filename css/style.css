@@ -1,0 +1,65 @@
+.cabecera{
+  width: auto;
+  height: 150px;
+  background: -webkit-linear-gradient(top, #A3BD31 0%,#8A9A2A 100%);
+  background-image: -webkit-linear-gradient(top, rgb(163, 219, 49) 0%, rgb(138, 154, 32) 100%);
+  border-bottom: 4px solid #2A4C03;
+}
+.cabecera h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 85px;
+  color: white;
+  display: inline;
+  float: left;
+  text-align: center;
+  margin: 25px 60px;
+}
+.titulo h2 {
+  color: #3B3C3F;
+  position: fixed;
+  margin-top: 0px;
+  display: inline-block;
+  top: 120px;
+  left: 130px;
+}
+.titulo h3{
+  color: #3B3C3F;
+  position: fixed;
+  margin-top: 0px;
+  display: block;
+  top: 120px;
+  left: 550px;
+}
+.cabecera #logo{
+  float: right;
+  margin: 0 30px;
+}
+.navegacion{
+  width: 100%;
+}
+.navegacion .nav, ul, li{
+  display: inline;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #335907;
+}
+.navegacion ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 0px 30px 10px 30px;
+  background-color: #335907;
+}
+.navegacion ul li a:hover {
+  background: #2A4C03;
+}
+.navegacion{
+  width: auto;
+  height: 47px;
+  background-color: #335907;
+}
+.pie{
+  width: 100%;
+  text-align: right;
+  background-color: #C3C4C8;
+  border-top: 3px solid #3B3C3F;
+}
