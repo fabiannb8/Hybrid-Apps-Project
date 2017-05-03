@@ -5,8 +5,11 @@
   background-image: -webkit-linear-gradient(top, rgb(163, 219, 49) 0%, rgb(138, 154, 32) 100%);
   border-bottom: 4px solid #2A4C03;
 }
-.cabecera h1{
+h1,h2,h3,h4, span{
   font-family: 'Montserrat', sans-serif;
+  color: #5E616D;
+}
+.cabecera h1{
   font-size: 85px;
   color: white;
   display: inline;
@@ -17,18 +20,20 @@
 .titulo h2 {
   color: #3B3C3F;
   position: fixed;
-  margin-top: 0px;
+  margin: 0px;
   display: inline-block;
   top: 120px;
   left: 130px;
+  font-size: 18.7px;
 }
 .titulo h3{
   color: #3B3C3F;
   position: fixed;
-  margin-top: 0px;
-  display: block;
-  top: 120px;
-  left: 550px;
+  margin: 0px;
+  display: inline-block;
+  top: 122px;
+  left: 584px;
+  font-size: 13px;
 }
 .cabecera #logo{
   float: right;
@@ -37,7 +42,11 @@
 .navegacion{
   width: 100%;
 }
-.navegacion .nav, ul, li{
+.navegacion ul{
+  margin-top: 0px;
+}
+.navegacion ul li{
+  margin-top: 0px;
   display: inline;
   font-family: 'Montserrat', sans-serif;
   background-color: #335907;
@@ -62,4 +71,21 @@
   text-align: right;
   background-color: #C3C4C8;
   border-top: 3px solid #3B3C3F;
+}
+.perfil{
+  width: 80%;
+  margin: 0px auto;
+}
+.perfil img{
+  width: 20%;
+  display: inline-block;
+  float: none;
+}
+.perfil h2{
+  color: #8A9A2A;
+
+}
+.perfil span{
+  width: 50%;
+  display: inline-block;
 }
