@@ -76,10 +76,11 @@ h1,h2,h3,h4, table, span, form{
   width: 80%;
   margin: 0px auto;
 }
-.cuerpo img{
+.img-perfil{
   width: 20%;
   display: inline-block;
   float: none;
+  margin: 0 20px 0 0;
 }
 .cuerpo h2{
   color: #8A9A2A;
@@ -118,4 +119,8 @@ legend{
 }
 .leable, #fecha, #institucion, #estudio-realizado, #culmino{
   font-weight: bold;
+}
+.videos{
+  width: 50%;
+  height: auto;
 }
