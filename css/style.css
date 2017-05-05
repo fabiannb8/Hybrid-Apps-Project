@@ -5,7 +5,7 @@
   background-image: -webkit-linear-gradient(top, rgb(163, 219, 49) 0%, rgb(138, 154, 32) 100%);
   border-bottom: 4px solid #2A4C03;
 }
-h1,h2,h3,h4, span{
+h1,h2,h3,h4, table, span, form{
   font-family: 'Montserrat', sans-serif;
   color: #5E616D;
 }
@@ -72,20 +72,50 @@ h1,h2,h3,h4, span{
   background-color: #C3C4C8;
   border-top: 3px solid #3B3C3F;
 }
-.perfil{
+.cuerpo{
   width: 80%;
   margin: 0px auto;
 }
-.perfil img{
+.cuerpo img{
   width: 20%;
   display: inline-block;
   float: none;
 }
-.perfil h2{
+.cuerpo h2{
   color: #8A9A2A;
 
 }
-.perfil span{
+.cuerpo span{
   width: 50%;
   display: inline-block;
+}
+.tablas  {
+  border: 4px solid #8A9A2A;
+  border-radius: 7px;
+  border-spacing: 0px;
+  text-align: center;
+}
+td, th  {
+  border-collapse: collapse;
+  border: 1px solid #335907;
+}
+.titulo-tabla{
+  font-weight: bold;
+  font-size: 18px;
+}
+.texto-tabla{
+  font-weight:lighter;
+}
+.formulario{
+  width: 80%;
+  margin: 20px auto;
+  display: grid;
+}
+legend{
+  font-size: 20px;
+  font-weight: bold;
+  color: #335907;
+}
+.leable, #fecha, #institucion, #estudio-realizado, #culmino{
+  font-weight: bold;
 }
